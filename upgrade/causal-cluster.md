@@ -16,7 +16,7 @@
 2. 백업을 확인하고 수행합니다:
 
 - neo4j.conf 를 백업합니다. 
-- [기본 사용자 및 역할관리](../security/authentication-authorization/native-user-role-management.md)를 사용할 경우 *dbms* 디렉토리를 백업합니다. 
+- [기본 사용자 및 역할관리](../security/authentication-authorization/native-user-and-role-management.md)를 사용할 경우 *dbms* 디렉토리를 백업합니다. 
 - 안전한 위치에 저장된 전체 백업이 있는지 확인하십시오.
 - [섹션 5.1, “업그레이드 계획”](./planning.md)을 참조하여 클러스터 내에 각 서버 별로 새로운 *neo4j.conf* 파일을 준비합니다. 
 
