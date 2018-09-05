@@ -51,7 +51,7 @@ dbms.security.realms.ldap.authorization.group_to_role_mapping=101=accounting
 
 #### 7.1.6.2. 절차 허가 관리 
 
-일반적으로 사용할 때 [섹션 7.1.4.1, 기본 역할](./authentication-authorization/native-user-role-management/native-roles.md)에 설명된대로 Cypher문과 동일한 보안 규칙에 따라 프로시저 함수가 실행됩니다. 예를 들어서 ```publisher```, ```architect``` 및 ```admin```기본 역할이 주어진 사용자는 ```mode=WRITE```를 사용하여 절차를 수행할 수 있지만, ```reader```역할만 가진 사용자는 이를 수행할 수 없습니다. 
+일반적으로 사용할 때 [섹션 7.1.4.1, 기본 역할](./native-user-and-role-management/native-roles.md)에 설명된대로 Cypher문과 동일한 보안 규칙에 따라 프로시저 함수가 실행됩니다. 예를 들어서 ```publisher```, ```architect``` 및 ```admin```기본 역할이 주어진 사용자는 ```mode=WRITE```를 사용하여 절차를 수행할 수 있지만, ```reader```역할만 가진 사용자는 이를 수행할 수 없습니다. 
 
 서브 그래프 접근 제어를 위해 특정 역할이 할당된 기본 역할로 액세스할 수 없는 절차를 실행합니다. 
 프로시저 실행 중에만 사용 권한이 사용자에게 부여됩니다. 다음 두 매개 변수는 원하는 동작을 구성할 떄 사용됩니다.
