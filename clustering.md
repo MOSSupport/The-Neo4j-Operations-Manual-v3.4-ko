@@ -1,5 +1,5 @@
 
-## 4. 클러스터링 `Enterprise Edition`
+## 4. 클러스터링  
 
 ```
 이 챕터에서는 Neo4j 인과관계 클러스터링 특징에 대해 다룹니다. 
@@ -18,24 +18,14 @@
 
 Neo4j 인과관계 클러스터를 업그레이드 하는 방법은 [인과관계 클러스터 업그레이드](/upgrade/causal-cluster.md)를 참조하십시오.  
 
-Neo4j 인과관계 클러스터를 모니터링할 수 있는 기능에 관련된 요약은 [챕터 8, 모니터링](/monitoring.md) (특히, [인과관계 클러스터 모니터](/monitoring/causal-cluster.md))을 참조하면 됩니다. 
+Neo4j 인과관계 클러스터를 모니터링할 수 있는 기능에 관련된 요약은 [챕터 8, 모니터링](/monitoring.md) (특히, [인과관계 클러스터 모니터](/monitoring/casual-cluster.md))을 참조하면 됩니다. 
 
 ### 멀티-데이터 센터 
 
 이 부분은 다중 데이터 센터 작업에 쓰이는 고급 배포 및 구성 옵션입니다. 
 
-
 - [멀티-데이터 센터](/clustering/multi-data-center.md) — 멀티-데이터 센터 부분 개요. 
   - [멀티-데이터 센터 작동 허가 — 멀티-데이터 센터 작동 허가와 관련된 정보.
-
-- [멀티-데이터 센터 설계](/clustering/multi-data-center/design.md) — 멀티-데이터 센터 배포 패턴.
-
-- [멀티-데이터 센터 작동](/clustering/multi-data-center/configuration.md) — 멀티-데이터 센터 배포 설정 옵션.
-
-- [멀티-데이터 센터 로드 발렌싱](/clustering/multi-data-center/load-balancing.md) — 
-클라이언트 응용 프로그램이 다중 데이터 센터 토폴로지를 인식하도록하는 구성 옵션.
-
-- [데이터 센터 재해 복구](/clustering/multi-data-center/disaster-recovery.md) — 데이터 센터 손실 후 클러스터가 작동하도록 회복시키는 방법. 
 
 ### 멀티-클러스터링 설계 및 환경설정 
 
@@ -45,10 +35,10 @@ Neo4j 인과관계 클러스터를 모니터링할 수 있는 기능에 관련�
 - [소개](/clustering/multi-clustering/introduction.md) — 멀티-클러스터링 기능 소개.
 - [멀티-클러스터 환경설정](/clustering/multi-clustering/config.md) — 멀티-클러스터 환경설정 지침. 
 
-Neo4j 멀티-클러스터를 모니터링할 때 이용하는 기능 요약 내용은 [섹션 8.4.3, 멀티-클러스터 모니터링](/monitoring/causal-cluster/multi-cluster.md)를 참조하십시오. 
+Neo4j 멀티-클러스터를 모니터링할 때 이용하는 기능 요약 내용은 [섹션 8.4.3, 멀티-클러스터 모니터링](/monitoring/casual-cluster/multi-cluster.md)를 참조하십시오. 
 
 ### 참조 설정
 
 - [참조 설정](/clustering/settings.md) — 인과관계 클러스터 설정에서 가장 중요한 것 요약.
 
-단일 컴퓨터에서 로컬로 테스트 클러스터 설정 방법은 [섹션 B.1, 로컬 인과관계 클러스터 설정](/tutorial/local-causal-cluster.md)을 참조하면 됩니다. 
+단일 컴퓨터에서 로컬로 테스트 클러스터 설정 방법은 [섹션 B.1, 로컬 인과관계 클러스터 설정](https://neo4j.com/docs/operations-manual/3.4/tutorial/local-causal-cluster)을 참조하면 됩니다. 
