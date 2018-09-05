@@ -9,6 +9,6 @@
 
 이 섹션은 다음을 포함합니다: 
 
-- [도입](/multi-clustering/introduction.md) — 다중-클러스터링 기능 소개 
+- [도입](./multi-clustering/introduction.md) — 다중-클러스터링 기능 소개 
 
-- [다중-클러스터 환경설정](/multi-clustering/config.md) — 다중-클러스터 설정 도입 
+- [다중-클러스터 환경설정](./multi-clustering/config.md) — 다중-클러스터 설정 도입 
