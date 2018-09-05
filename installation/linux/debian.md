@@ -107,7 +107,7 @@ echo "neo4j-enterprise neo4j/license note" | sudo debconf-set-selections
 
 ### 2.2.1.2. 업그레이드
 
-Neo4j 3.x 버전을 3.3.6로 업그레이드하려면 [쳅터 5. 업그레이드](../../upgrade/upgrade-planning.md)지시 사항을 참조하면 됩니다. 
+Neo4j 3.x 버전을 3.3.6로 업그레이드하려면 [쳅터 5. 업그레이드](../../upgrade/planning.md)지시 사항을 참조하면 됩니다. 
 아래의 요약은 Neo4j 2.3을 3.4.6로 업그레이드할 때 필요합니다. 
 
 ### Neo4j 2.3에서 업그레이드

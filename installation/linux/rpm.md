@@ -78,4 +78,4 @@ NEO4J_ACCEPT_LICENSE_AGREEMENT=yes yum install neo4j-enterprise-3.4.6
 
 ### 2.2.2.4. 업그레이드
 
-Neo4j의 3.x 버전을 Neo4j 3.4.6로 업그레이드 하려면 [챕터 5장 업그레이드](../../upgrade/upgrade-planning.md) 내용을 참조하면 됩니다. 
+Neo4j의 3.x 버전을 Neo4j 3.4.6로 업그레이드 하려면 [챕터 5장 업그레이드](../../upgrade/planning.md) 내용을 참조하면 됩니다. 
