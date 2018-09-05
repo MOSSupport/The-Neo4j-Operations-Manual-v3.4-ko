@@ -29,5 +29,5 @@
 다음 절에서는 임포트 도구 사용법에 대해 다룹니다:
 
 - [문법](./import/syntax.md) - ```neo4j-admin import``` 명령어의 문법.
-- [CSV 헤더 포맷](./import/cfile-header-format.md) - 각 CSV 파일의 헤더 행(row) 만드는 방법.
+- [CSV 헤더 포맷](./import/file-header-format.md) - 각 CSV 파일의 헤더 행(row) 만드는 방법.
 - [옵선](./import/options.md) - ```neo4j-admin import```에서 사용할 수 있는 옵션.
