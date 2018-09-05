@@ -112,7 +112,7 @@ Neo4j와 Java 플랫폼을 결합하면, 강력한 프로토콜 및 암호 결�
 
 ### 7.3.4. SSL 정책 적용하기 
 
-다른 [통신 채널](https://neo4j.com/docs/operations-manual/3.4/security/ssl-framework/#term-ssl-channel)은 아래 환경 설정을 이용하여 각각 독립적으로 보호됩니다. 
+다른 통신 채널은 아래 환경 설정을 이용하여 각각 독립적으로 보호됩니다. 
 
 ```bolt.ssl_policy```
 
