@@ -15,12 +15,9 @@
   — 자바 가상 머신의 가비지 컬렉터 설정 방법.
 - [볼트 스레드 풀 구성](/performance/bolt-thread-pool-configuration.md) 
   — 볼트 스레드 풀을 구성하는 방법.
-- [스토리지 압축](/performance/compressed-storage.md)
-  — 압축 스토리지의 속성 설정 방법.
-- [리눅스 파일 시스템 튜닝](/performance/linux-file-system-tuning.md)
-  — 리눅스 파일 시스템 설정 방법.
-- [디스크, RAM과 그 밖의 팁들](/performance/disks-ram-and-other-tips.md)       
-  — 디스크, RAM과 그 밖의 팁들.
+- [스토리지 압축](/performance/compressed-storage.md) — 압축 스토리지의 속성 설정 방법.
+- [리눅스 파일 시스템 튜닝](/performance/linux-file-system-tuning.md) — 리눅스 파일 시스템 설정 방법.
+- [디스크, RAM과 그 밖의 팁들](/performance/disks-ram-and-other-tips.md) — 디스크, RAM과 그 밖의 팁들.
 - [통계 및 실행 계획](/performance/statistics-execution-plans.md) 
   — 스키마 통계 및 실행 계획이 Cypher 쿼리 성능에 미치는 영향.
 
