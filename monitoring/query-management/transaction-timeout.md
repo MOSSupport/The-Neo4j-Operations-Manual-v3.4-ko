@@ -12,7 +12,7 @@
 이 섹션에서는 다음에 대해 다룹니다.:
 
 - [트랜잭션 시간 초과](/monitoring/query-management.md)
-- [쿼리 관리 절차](/monitoring/query-management/procedures.md)\
+- [쿼리 관리 절차](/monitoring/query-management/procedures.md)
 
 	- 전문 용어
 	- 실행중인 모든 쿼리 리스트
