@@ -13,7 +13,7 @@
 
 #### 관리자 
 
-[`관리자(admin`)](./native-user-role-management/native-roles.md) 역할에 할당된 사용자입니다.
+[`관리자(admin`)](./native-user-role-and-management/native-roles.md) 역할에 할당된 사용자입니다.
 
 #### 현재 사용자 
 
@@ -30,8 +30,8 @@
 
 이것은 데이터에 대한 읽기 및 쓰기와 같은 작업 모음입니다.Neo4j에는 2 가지 역할이 있습니다.
 
-- 기본 역할에 대한 설명은 [7.1.4.1 절, "기본 역할"](./native-user-role-management/native-roles.md)에서 다룹니다.
-- 사용자 역할에 대한 설명은 [7.1.4.2 절, "사용자 역할"](./native-user-role-management/custom-roles.md)에서 다룹니다.
+- 기본 역할에 대한 설명은 [7.1.4.1 절, "기본 역할"](./native-user-role-and-management/native-roles.md)에서 다룹니다.
+- 사용자 역할에 대한 설명은 [7.1.4.2 절, "사용자 역할"](./native-user-role-and0management/custom-roles.md)에서 다룹니다.
 
 #### suspended 사용자 
 
