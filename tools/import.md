@@ -24,10 +24,10 @@
 
 인덱스 및 제약 조건은 임포트되는 동안 만들어지지 않습니다. 대신, 나중에 이것을 추가해야합니다 ([개발자 설명서] → [스키마](https://neo4j.com/docs/developer-manual/3.4/cypher/schema/) 참조).
 
-이 장에서는 입력 데이터를 형식화하고 임포트 도구를 사용하는 방법을 설명합니다. 임포트 도구 사용 관련 예제는 [임포트 사용서](../tutorial/import_tool.md)를 참조합니다.
+이 장에서는 입력 데이터를 형식화하고 임포트 도구를 사용하는 방법을 설명합니다. 임포트 도구 사용 관련 예제는 [임포트 사용서](https://neo4j.com/docs/operations-manual/3.4/tutorial/import-tool)를 참조합니다.
 
 다음 절에서는 임포트 도구 사용법에 대해 다룹니다:
 
 - [문법](./import/syntax.md) - ```neo4j-admin import``` 명령어의 문법.
-- [CSV 헤더 포맷](./import/csv-header-format.md) - 각 CSV 파일의 헤더 행(row) 만드는 방법.
+- [CSV 헤더 포맷](./import/cfile-header-format.md) - 각 CSV 파일의 헤더 행(row) 만드는 방법.
 - [옵선](./import/options.md) - ```neo4j-admin import```에서 사용할 수 있는 옵션.
