@@ -7,7 +7,7 @@
 
 #### 7.1.5.1. LDAP 인증 공급자 구성
 
-Neo4j는 Active Directory,OpenLDAP 또는 다른 LDAP와 호환가능한 인증 서비스를 허용하는 LDAP프로토콜을 지원합니다. 다음 예에서는 해당 서비스 관리 기능을 사용하여, 페더레이션된 사용자 관리가 LDAP 서비스로 연기되는 것을 확인할 수 있습니다. 즉, 네이티브 네오위즈 사용자 및 관리 역할을 완전히 해제하고 LDAP 그룹을 Neo4j [네이티브 역할](./authentication-authorization/native-user-role-management/native-roles.md) 및 사용자 역할에 매핑합니다.
+Neo4j는 Active Directory,OpenLDAP 또는 다른 LDAP와 호환가능한 인증 서비스를 허용하는 LDAP프로토콜을 지원합니다. 다음 예에서는 해당 서비스 관리 기능을 사용하여, 페더레이션된 사용자 관리가 LDAP 서비스로 연기되는 것을 확인할 수 있습니다. 즉, 네이티브 네오위즈 사용자 및 관리 역할을 완전히 해제하고 LDAP 그룹을 Neo4j [네이티브 역할](./native-user-and-role-management/native-roles.md) 및 사용자 역할에 매핑합니다.
 
 모든 설정은 기본 구성 파일 ```neo4j.conf```에서 서버 시작시 정의해야 합니다. 먼저, LDAP를 인증 및 권한 제공자로 사용하기 위해 Neo4j를 설정하십시오. 
 
