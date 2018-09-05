@@ -50,9 +50,9 @@ Neo4j는 역할 기반 액세스 제어 프레임워크에 다섯 가지 기본 
 | View all users for a role                |          |          |             |             | `X`     |           |
 | View all queries                         |          |          |             |             | `X`     |           |
 | Terminate all queries                    |          |          |             |             | `X`     |           |
-| Dynamically change configuration ([3.7절, "동적 설정" 참조](/configuration/dynamic-settings.html)) |          |          |             |             | `X`     |           |
+| Dynamically change configuration  |          |          |             |             | `X`     |           |
 
-할당 된 역할이 없는 [사용자](/security/authentication-authorization/terminology.html/#term-user)에게는 읽기 권한조차 데이터와 관련된 권한이나 기능이 없습니다. 사용자는 둘 이상의 할당된 역할을 가질 수 있으며 이들의 결합은 사용자가 수행할 수 있는 데이터 작업을 결정합니다.
+할당 된 역할이 없는 사용자에게는 읽기 권한조차 데이터와 관련된 권한이나 기능이 없습니다. 사용자는 둘 이상의 할당된 역할을 가질 수 있으며 이들의 결합은 사용자가 수행할 수 있는 데이터 작업을 결정합니다.
 
 관리자가 다른 사용자 역할을 중지시키거나 삭제하면 다음 규칙이 적용됩니다.
 
