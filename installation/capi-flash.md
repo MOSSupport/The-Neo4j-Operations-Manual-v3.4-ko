@@ -124,13 +124,13 @@ dbms.memory.pagecache.swapper.capi.device=/dev/sg1:/dev/sg2```
 
 ```
 dbms.memory.pagecache.swapper.capi.device=/dev/sg1:/dev/sg2::/dev/sg3:/dev/sg4
+
                                              ┌─┘       ┌┘         └┐       └─┐
                                         ┌────▼───┐┌────▼───┐  ┌────▼───┐┌────▼───┐
                                        ┌┤/dev/sg1├┤/dev/sg2├┐┌┤/dev/sg3├┤/dev/sg4├┐
                                        │└────────┘└────────┘││└────────┘└────────┘│
                                        │      device a      ││      device b      │
                                        └────────────────────┘└────────────────────┘
-
 ```
 
 장치 결합 방법과는 상관없이 모든 장치는 동일한 용량을 가져야 합니다. 또한, 위에는 다이어그램을 간결하게 유지하고자 임시 포트 이름만 사용했습니다. 
