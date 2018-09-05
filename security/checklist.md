@@ -41,12 +41,12 @@ b. 설정 ```dbms.security.procedures.unrestricted```와 ```dbms.security.proced
 
 6. *bin*, *lib* 및 *plugins* 디렉토리 액세스를 제한하여 허가되지 않은 확장 실행을 보호하십시오. Neo4j를 실행하는 운영 시스템 사용자만 파일에 대한 사용 권한을 가집니다. 사용 권한 레벨은 [섹션 3.1.3, 권한](../configuration/file-locations.md)을 참조하십시오. 
 
-7. 만약 ```LOAD CSV```가 활성화되었다면, 권한이 없는 사용자는 데이터를 임포트할 수 없도록 하십시오. ```LOAD CSV```를 설정하는 방법은 [개발자 메뉴얼 → LOAD CSV](/cypher/clauses/load-csv.md)에서 확인할 수 있습니다. 
+7. 만약 ```LOAD CSV```가 활성화되었다면, 권한이 없는 사용자는 데이터를 임포트할 수 없도록 하십시오. ```LOAD CSV```를 설정하는 방법은 [개발자 메뉴얼 → LOAD CSV](https://neo4j.com/docs/developer-manual/3.4/cypher/clauses/load-csv)에서 확인할 수 있습니다. 
 
-8. Neo4j 인증을 끄지 마십시오. 자세한 내용은 [섹션 7.1.3,인증 및 권한 부여 활성화](./security/authentication-authorization/enable.md)를 참조하십시오. 
+8. Neo4j 인증을 끄지 마십시오. 자세한 내용은 [섹션 7.1.3,인증 및 권한 부여 활성화](/authentication-authorization/enable.md)를 참조하십시오. 
 
 9. *neo4j.conf* 파일에서 중요도가 떨어지는 함수 (예 : ```dbms.shell.port``` 매개 변수로 제어되는 ```neo4j-shell```) 및 원격 JMX (```dbms.jvm.additional = -Dcom.sun.management.jmxremote.port = 3637``` 매개 변수 설정에서 제어)와 관련된 포트를 조사하십시오.)
  
-10. Neo4j Browser 기본 자격 증명 처리가 보안 규정을 준수하는지 확인하려면, [섹션 7.4, 브라우저 자격증명 처리](./security/browser.md)를 참조하십시오. 필요한 경우 다음 지침을 따라 설정하십시오.
+10. Neo4j Browser 기본 자격 증명 처리가 보안 규정을 준수하는지 확인하려면, [섹션 7.4, 브라우저 자격증명 처리](./browser.md)를 참조하십시오. 필요한 경우 다음 지침을 따라 설정하십시오.
  
 11. Neo4j의 최신 버전 패치를 사용하십시오. 
