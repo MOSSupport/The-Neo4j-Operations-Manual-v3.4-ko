@@ -8,7 +8,7 @@
 리눅스를 Neo4j에 설치하기 위해서는 Debian 또는 RPM 패키지을 사용하거나 tarball로부터 설치합니다. 
  
 배포를 위해서는 Neo4j 데스크톱을 이용해 Neo4j를 설치할 수도 있습니다. Neo4j 데스크톱은 
-(다운로드)[https://neo4j.com/download]에서 다운받을 수 있습니다. 
+[다운로드](https://neo4j.com/download)에서 다운받을 수 있습니다. 
 
 이 섹션에서는 다음을 다룹니다. 
 
