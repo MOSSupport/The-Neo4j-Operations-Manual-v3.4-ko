@@ -5,7 +5,7 @@
  이 섹션에서는 Neo4j이 작동하는 동안, Neo4j설정 변경하는 법과 변경가능한 설정에 대해 다룹니다.
 ```
 
-Neo4j 기업용 배포판은 서비스 재시작 없이도 일부 설정을 변경할 수 있습니다. 설정은 ```dbms.setConfigValue()```절차를 사용해서 변경됩니다. ```dbms.setConfigValue()```을 작동하려면 [관리자](../security/authentication-and-authorization/terminology.md) 권한이 필요합니다. 
+Neo4j 기업용 배포판은 서비스 재시작 없이도 일부 설정을 변경할 수 있습니다. 설정은 ```dbms.setConfigValue()```절차를 사용해서 변경됩니다. ```dbms.setConfigValue()```을 작동하려면 [관리자](../security/authentication-authorization/terminology.md) 권한이 필요합니다. 
 
 운영 시간동안 변경된 설정은 유지되지 않습니다. Neo4j을 재시작할 때, 변경 내용이 누락되지 않으려면 [Neo4j 설정 파일](file-locations.md)을 함께 업데이트 해야 됩니다.
 
