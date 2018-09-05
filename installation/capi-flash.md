@@ -118,13 +118,16 @@ dbms.memory.pagecache.swapper.capi.device=/dev/sg0600::/dev/sg0700::/dev/sg0800
 
 
 ```
-dbms.memory.pagecache.swapper.capi.device=/dev/sg1:/dev/sg2```
+dbms.memory.pagecache.swapper.capi.device=/dev/sg1:/dev/sg2
+```
 
 위 두 가지- 소프트웨어 RAID-0과 다중 포트 장치는 결합이 가능합니다. LBA-저장소를 공유하는 장치는 단일 구분 문자로 그룹화 될 것이고, 결국 각 그룹은 두 개의 구분 문자로 구분될 것 입니다. 아래의 ```sg3```와 ```sg4```가 다른 LBA-저장소를 공유하는 동안, ```sg1```과 ```sg2```가 LBA-저장소를 공유하는 예입니다. 
 
-```
 dbms.memory.pagecache.swapper.capi.device=/dev/sg1:/dev/sg2::/dev/sg3:/dev/sg4
 
+
+```
+ 
                                              ┌─┘       ┌┘         └┐       └─┐
                                         ┌────▼───┐┌────▼───┐  ┌────▼───┐┌────▼───┐
                                        ┌┤/dev/sg1├┤/dev/sg2├┐┌┤/dev/sg3├┤/dev/sg4├┐
