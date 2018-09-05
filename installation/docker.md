@@ -71,7 +71,7 @@ Neo4j 에디션을 이용하기 위해서 반드시 라이센스에 동의를 �
 
 (c) Network Engine for Objects in Lund AB. 2017. 무단 복제 금지. Neo4j 또는 상업 라이센스가 없는 경우 이 소포트웨어 사용이 금지됩니다. 
 이메일 관련 문의 : icensing@neo4j.com
-더 많은 정보 관련 문의 : [https://neo4j.com/licensing]("https://neo4j.com/licensing")
+더 많은 정보 관련 문의 : https://neo4j.com/licensing
 
 라이센스에 동의하려면,  ```NEO4J_ACCEPT_LICENSE_AGREEMENT=yes``` 환경 변수를 설정해야 합니다. 이를 통해 다음 도큐먼트 인수를 사용할 수 있습니다. :
 
@@ -197,7 +197,7 @@ docker run -e "EXTENSION_SCRIPT=/extra_conf.sh" cafe12345678
 - [단일-인스턴스 업그레이드](/upgrade/deployment-upgrading.md)
 - [Neo4j Causal 클러스터 업그레이드](/upgrade/causal-cluster.md)
 
-###2.5.4. Neo4j 클러스터 모드
+### 2.5.4. Neo4j 클러스터 모드
 
 Docker에서 CC모드로 Neo4j를 작동하려면 서로 통신하도록 클러스터 컨테이너를 연결해야 됩니다. 각 컨테이너에서 서로의 네트워크 루트 및 ```NEO4J_causal__clustering_expected__core__cluster__size```와 ```NEO4J_causal__clustering_initial__discovery__members```를 가져야되고 환경 변수 코어를 설정 해야합니다. 읽기 복제본은 ```NEO4J_causal__clustering_initial__discovery__members```을 유지해야 합니다. 
 
