@@ -16,7 +16,7 @@
 **그림 4.6. 인과관계 클러스터 discovery 프로토콜: Core-to-Core 또는 읽기 복제본-to-Core 전용**
 
 
-![4.6.causal-clustering-discovery](./4.6.causal-clustering-discovery.png)
+![4.6.causal-clustering-discovery](./4.6.causal-clustering-discovery.svg)
 
 이 힌트로부터 서버는 기존 클러스터에 참여하거나 자체 클러스터 중 하나를 형성할 것입니다.(분할된 브레인 클러스터 형성을 대해 걱정하지 마십시오. 코어 클러스터 형성은 Raft 프로토콜을 기반으로하기 에 안전합니다). 
 
